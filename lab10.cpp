@@ -50,7 +50,7 @@ void main(){
 
 	//Вывод ответа на экран
 	//Есть проблема с отображением знака фунта!!!
-	std::cout << "Десятичных фунтов: \x9C" /*<< char(156)*/  << pound << "." << sumPenny << std::endl; 
+	std::cout << "Десятичных фунтов: " << char(156) << pound << "." << sumPenny << std::endl; 
 
 	std::system("pause");
 }
